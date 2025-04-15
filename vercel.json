@@ -1,0 +1,20 @@
+{
+    "headers": [
+      {
+        "source": "/images/:path*.webp",
+        "headers": [
+          {
+            "key": "Content-Type",
+            "value": "image/webp"
+          }
+        ]
+      }
+    ],
+    "rewrites": [
+      {
+        "source": "/(.*)",
+        "destination": "/index.html"
+      }
+    ]
+  }
+  
