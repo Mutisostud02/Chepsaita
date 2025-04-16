@@ -1,14 +1,22 @@
-import PropTypes from 'prop-types';
-export function HomeOne({ title, content, extraContent, src }) {
+import PropTypes from "prop-types";
+export function HomeOne({ title, content, extraContent, name }) {
   return (
     <div className="group1">
-      <img src={src} />
+      <PoolIcon name={name}/>
       <h4>{title}</h4>
       <p>{content}</p>
       {extraContent && <p>{extraContent}</p>}
     </div>
   );
 }
+function PoolIcon({name}) {
+  return (
+    <span className="material-symbols-outlined"
+    style={{ fontSize: '4rem', color: 'green' }}>
+      {name}
+    </span>
+  );
+};
 
 export function HomeTwo({ title, content, stylez, goal }) {
   return (
@@ -41,21 +49,21 @@ export function HomeThree({ src, size, title, content, alt }) {
 }
 
 HomeOne.propTypes = {
-    src: PropTypes.string.isRequired,
-    title: PropTypes.string.isRequired,
-    content: PropTypes.string.isRequired,
-    extraContent: PropTypes.string,
-}
+  src: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  content: PropTypes.string.isRequired,
+  extraContent: PropTypes.string,
+};
 HomeTwo.propTypes = {
-    title: PropTypes.string.isRequired,
-    content: PropTypes.string.isRequired,
-    stylez: PropTypes.object.isRequired,
-    goal: PropTypes.string.isRequired,
-}
+  title: PropTypes.string.isRequired,
+  content: PropTypes.string.isRequired,
+  stylez: PropTypes.object.isRequired,
+  goal: PropTypes.string.isRequired,
+};
 HomeThree.propTypes = {
-    src: PropTypes.string.isRequired,
-    size: PropTypes.number.isRequired,
-    title: PropTypes.string.isRequired,
-    content: PropTypes.string.isRequired,
-    alt: PropTypes.string.isRequired,
-}
+  src: PropTypes.string.isRequired,
+  size: PropTypes.number.isRequired,
+  title: PropTypes.string.isRequired,
+  content: PropTypes.string.isRequired,
+  alt: PropTypes.string.isRequired,
+};

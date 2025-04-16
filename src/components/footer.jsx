@@ -80,7 +80,7 @@ function FooterInfo2() {
   return (
     <div className="footer-info2">
       <h3>Quick Links</h3>
-      <ul style={{listStyle: 'none', marginLeft: '0', paddingLeft: '0'}}>
+      <ul style={{ listStyle: "none", marginLeft: "0", paddingLeft: "0" }}>
         <li>
           <Link onClick={() => window.scrollTo(0, 0)} to="/">
             Home
@@ -119,7 +119,7 @@ function FooterInfo3() {
         >
           <path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z" />
         </svg>
-        <p>Info@chepsaitasportsltd.com</p>
+        <p>info@chepsaitasportslimited.co.ke</p>
       </div>
       <div className="tel">
         <svg
@@ -143,7 +143,7 @@ function FooterInfo3() {
         >
           <path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-82q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Zm-220 86q17 66 64.5 113T437-134v-106q-29 0-49.5-20.5T367-310h-107Zm220 234q66-17 113-64.5T707-257H600q0 29-20.5 49.5T530-187v107Zm-220-474q17-66 64.5-113T437-826v106q-29 0-49.5 20.5T367-650H260Zm220-234q66 17 113 64.5T707-703H600q0-29-20.5-49.5T530-773v-107Z" />
         </svg>
-        <p>www.chepsaitasportsltd.com</p>
+        <p>www.chepsaitasportslimited.co.ke</p>
       </div>
       <div className="location">
         <svg

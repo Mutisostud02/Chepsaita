@@ -39,11 +39,11 @@ export default function ContactPage() {
               Lower kipkarin, chepterwai road, kapsos 606-30100 Kapsos-Turbo
             </p>
             <p>0202600171</p>
-            <p>Info@chepsaitasportsltd.com</p>
+            <p>info@chepsaitasportslimited.co.ke</p>
           </div>
         </div>
         <form
-          action="https://formsubmit.co/Info@chepsaitasportsltd.com"
+          action="https://formsubmit.co/2ed4ae0259f41bd6e55eacabbbcaa34c"
           method="POST"
           className="contact-form"
         >
@@ -61,7 +61,7 @@ export default function ContactPage() {
               cols="30"
               rows="5"
               name="message"
-              placeholder="Your message.."
+              placeholder="Your message..."
             ></textarea>
           </div>
           <button>Send</button>

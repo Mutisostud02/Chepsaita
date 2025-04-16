@@ -1,7 +1,7 @@
 import Message from "../components/message";
 import { Link } from "react-router-dom";
 import { HomeTwo } from "../components/home";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
 export default function AboutProgramsPage() {
   return (
@@ -11,9 +11,10 @@ export default function AboutProgramsPage() {
         <p>
           Chepsaita Sports Limited is a leading sports development organization
           dedicated to identifying, nurturing, and promoting sports talent
-          across Kenya. We work in partnership with local communities, schools,
-          sports federations, and international organizations to create
-          opportunities for athletes at all levels.
+          across Kenya. We specialize in a variety of sports including football,
+          athletics, swimming, and cycling. We work in partnership with local
+          communities, schools, sports federations, and international
+          organizations to create opportunities for athletes at all levels.
         </p>
         <p>
           <a>
@@ -88,7 +89,8 @@ export default function AboutProgramsPage() {
             </li>
             <li>
               We provide professional coaching and training programs for
-              athletes of all ages.
+              athletes of all ages in football, athletics, swimming, cycling,
+              and other sports.
             </li>
             <li>
               We supply quality sports equipment to talented athletes who lack
@@ -121,7 +123,7 @@ export default function AboutProgramsPage() {
             <div className="services-group2">
               <HomeTwo
                 stylez={{
-                  backgroundImage: "url('/assets/sports14.jpg')",
+                  backgroundImage: "url('/assets/sports8.jpeg')",
                   backgroundPosition: "center",
                   backgroundSize: "cover",
                 }}
@@ -130,7 +132,7 @@ export default function AboutProgramsPage() {
               />
               <HomeTwo
                 stylez={{
-                  backgroundImage: "url('/assets/sports5.jpg')",
+                  backgroundImage: "url('/assets/sports24.jpeg')",
                   backgroundPosition: "center",
                   backgroundSize: "cover",
                 }}
@@ -139,25 +141,43 @@ export default function AboutProgramsPage() {
               />
               <HomeTwo
                 stylez={{
-                  backgroundImage: "url('/assets/sports9.jpg')",
+                  backgroundImage: "url('/assets/sports23.jpeg')",
+                  backgroundPosition: "center",
+                  backgroundSize: "cover",
+                }}
+                title="Swimming Program"
+                content="Our swimming program focuses on developing water safety skills and competitive swimming abilities. From beginners to advanced swimmers, we provide structured training that builds confidence, technique, and endurance in the water."
+              />
+              <HomeTwo
+                stylez={{
+                  backgroundImage: "url('/assets/sports19.jpeg')",
+                  backgroundPosition: "center",
+                  backgroundSize: "cover",
+                }}
+                title="Cycling Academy"
+                content="Our cycling academy introduces young athletes to the exciting world of cycling. We offer training in road cycling, mountain biking, and track cycling, with a focus on technique, safety, and competitive strategies for all skill levels."
+              />
+              <HomeTwo
+                stylez={{
+                  backgroundImage: "url('/assets/sports26.jpeg')",
                   backgroundPosition: "center",
                   backgroundSize: "cover",
                 }}
                 title="Sports Equipment Support"
-                content="We collect and distribute quality sports equipment to talented athletes who lack resources. This includes footballs, jerseys, boots, training equipment, and more. Our goal is to ensure that financial constraints don't limit athletic potential."
+                content="We collect and distribute quality sports equipment to talented athletes who lack resources. This includes footballs, jerseys, boots, swimming gear, bicycles, cycling equipment, and more. Our goal is to ensure that financial constraints don't limit athletic potential."
               />
               <HomeTwo
                 stylez={{
-                  backgroundImage: "url('/assets/sports13.jpg')",
+                  backgroundImage: "url('/assets/sports13.jpeg')",
                   backgroundPosition: "center",
                   backgroundSize: "cover",
                 }}
                 title="Community Sports Events"
-                content="We organize regular sports events and tournaments that bring communities together, promote healthy competition, and help us identify promising athletes for our development programs. These events cover various sports including football, athletics, volleyball, and basketball."
+                content="We organize regular sports events and tournaments that bring communities together, promote healthy competition, and help us identify promising athletes for our development programs. These events cover various sports including football, athletics, swimming, cycling, volleyball, and basketball."
               />
               <HomeTwo
                 stylez={{
-                  backgroundImage: "url('/assets/sports11.jpg')",
+                  backgroundImage: "url('/assets/sports25.jpeg')",
                   backgroundPosition: "center",
                   backgroundSize: "cover",
                 }}
@@ -192,7 +212,8 @@ function Section1({ src }) {
         <h2>Mission Statement</h2>
         <p style={{ marginBottom: "1rem" }}>
           Our mission is to identify, develop, and promote sports talent across
-          Kenya, with a focus on providing opportunities for young athletes from
+          Kenya in football, athletics, swimming, cycling, and other sports,
+          with a focus on providing opportunities for young athletes from
           underserved communities.
         </p>
         <p>
@@ -211,10 +232,10 @@ function Section2() {
       <h1>Our History</h1>
       <div className="about-group2">
         <div id="image">
-          <img src="/assets/kibet.jpeg" style={{ width: "250px" }} />
+          <img src="/assets/murkoc.jpeg" style={{ width: "250px" }} />
           <img src="/assets/ababu.jpeg" style={{ width: "250px" }} />
           <img src="/assets/ruto3.jpeg" style={{ width: "250px" }} />
-          <img src="/assets/ruto2.jpeg" style={{ width: "250px" }} />
+          <img src="/assets/rutos.jpeg" style={{ width: "250px" }} />
         </div>
         <div className="about-group2Info">
           <p style={{ marginBottom: "1rem" }}>
@@ -231,11 +252,10 @@ function Section2() {
             infrastructure and opportunities are limited.
           </p>
           <p>
-            Our leadership team, including Ruto, Oscar Sudi, Farouk Kibet,
-            Mandaa, Ababu na Mwamba, and Kipchumba Murkomen, brings diverse
-            expertise in sports management, coaching, and community development.
-            Their vision and dedication have been instrumental in our growth and
-            success.
+            Our leadership team of professionals, led by our Founder Kirwa, in
+            collaboration and assistance from visionaries and donors such as his
+            excellency William Ruto, Oscar Sudi, Farouk Kibet, Mandago, Ababu
+            Namwamba, Kipchumba Murkomen, Rai, Sport Pesa, Betika and others.
           </p>
           <p>
             Our core focus remains on grassroots sports development and creating
