@@ -63,7 +63,7 @@ export default function ContactPage() {
           </div>
         </div>
         <form
-          action="https://formsubmit.co/info@chepsaitasportslimited.co.ke"
+          action="https://formsubmit.co/2ed4ae0259f41bd6e55eacabbbcaa34c"
           method="POST"
           className="contact-form"
         >
