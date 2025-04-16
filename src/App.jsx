@@ -6,6 +6,7 @@ import FooterDetails from "./components/footer";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import ContactPage from "./pages/ContactPage";
+import ThankYouPage from "./pages/ThankYouPage";
 import BackToTop from "./components/BackToTop"; // Import the button
 
 function ScrollToTop() {
@@ -27,6 +28,7 @@ export default function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutProgramsPage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/thank-you" element={<ThankYouPage />} />
       </Routes>
       <FooterDetails />
       <BackToTop />
