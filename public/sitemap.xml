@@ -4,30 +4,31 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<!-- created for Chepsaita Sports Limited -->
 
 
 <url>
-  <loc>https://www.icrhsinternational.org/</loc>
-  <lastmod>2025-02-13T13:13:05+00:00</lastmod>
-        <priority>1.0</priority>
-
+  <loc>https://www.chepsaitasportslimited.co.ke/</loc>
+  <lastmod>2023-07-15T13:13:05+00:00</lastmod>
+  <priority>1.0</priority>
 </url>
 
-    <url>
-        <loc>https://www.icrhsinternational.org/about</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-     <url>
-        <loc>https://www.icrhsinternational.org/services</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.icrhsinternational.org/contact</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
+<url>
+  <loc>https://www.chepsaitasportslimited.co.ke/about</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://www.chepsaitasportslimited.co.ke/contact</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://www.chepsaitasportslimited.co.ke/thank-you</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.5</priority>
+</url>
 
 </urlset>

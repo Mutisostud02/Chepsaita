@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.icrhsinternational.org/sitemap.xml
+Sitemap: https://www.chepsaitasportslimited.co.ke/sitemap.xml
