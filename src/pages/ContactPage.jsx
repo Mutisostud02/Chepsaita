@@ -1,4 +1,5 @@
-import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
+import { GoogleMap, useJsApiLoader, Marker } from "@react-google-maps/api";
+import { useMemo } from "react";
 
 const containerStyle = {
   width: "100%",
@@ -6,17 +7,36 @@ const containerStyle = {
 };
 
 const center = {
-  lat: 0.5279384851455688, // This is a placeholder - you should update with the actual coordinates for Kapsos
+  lat: 0.5279384851455688, // Coordinates for Kapsos
   lng: 35.25893783569336,
 };
 
 const GoogleMapComponent = () => {
+  // Use memoized API key to prevent unnecessary re-renders
+  const libraries = useMemo(() => ["places"], []);
+
+  // Load the Google Maps API only once
+  const { isLoaded } = useJsApiLoader({
+    googleMapsApiKey: "AIzaSyCpOX8UeB706633Osm3KSkp3sbj5Y_s8dE",
+    libraries,
+  });
+
+  if (!isLoaded) return <div className="map-loading">Loading map...</div>;
+
   return (
-    <LoadScript googleMapsApiKey="AIzaSyCpOX8UeB706633Osm3KSkp3sbj5Y_s8dE">
-      <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={14}>
-        <Marker position={center} title="Chepsaita Sports Limited" />
-      </GoogleMap>
-    </LoadScript>
+    <GoogleMap
+      mapContainerStyle={containerStyle}
+      center={center}
+      zoom={14}
+      options={{
+        disableDefaultUI: false,
+        zoomControl: true,
+        streetViewControl: false,
+        mapTypeControl: true,
+      }}
+    >
+      <Marker position={center} title="Chepsaita Sports Limited" />
+    </GoogleMap>
   );
 };
 
@@ -43,17 +63,48 @@ export default function ContactPage() {
           </div>
         </div>
         <form
-          action="https://formsubmit.co/2ed4ae0259f41bd6e55eacabbbcaa34c"
+          action="https://formsubmit.co/info@chepsaitasportslimited.co.ke"
           method="POST"
           className="contact-form"
         >
+          {/* Honeypot field to prevent spam */}
+          <input type="text" name="_honey" style={{ display: "none" }} />
+
+          {/* Disable captcha */}
+          <input type="hidden" name="_captcha" value="false" />
+
+          {/* Success page redirect */}
+          <input
+            type="hidden"
+            name="_next"
+            value={`${window.location.origin}/thank-you`}
+          />
+
           <div className="personal-details">
-            <input type="text" name="name" placeholder="Your name" required />
+            <input
+              type="text"
+              name="name"
+              placeholder="Your name"
+              required
+              minLength="2"
+              maxLength="50"
+            />
             <input
               type="email"
               name="email"
               placeholder="Your email"
               required
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+              title="Please enter a valid email address"
+            />
+          </div>
+          <div className="personal-details">
+            <input
+              type="tel"
+              name="phone"
+              placeholder="Your phone (optional)"
+              pattern="[0-9+\s]*"
+              title="Please enter a valid phone number"
             />
           </div>
           <div className="text-area">
@@ -62,9 +113,12 @@ export default function ContactPage() {
               rows="5"
               name="message"
               placeholder="Your message..."
+              required
+              minLength="10"
+              maxLength="1000"
             ></textarea>
           </div>
-          <button>Send</button>
+          <button type="submit">Send Message</button>
         </form>
       </div>
     </div>
