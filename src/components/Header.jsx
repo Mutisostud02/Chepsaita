@@ -8,7 +8,7 @@ export default function Header() {
         <a href="mailto:info@chepsaitasportslimited.co.ke">
           info@chepsaitasportslimited.co.ke
         </a>
-        <a href="tel:+254202600171">0202600171</a>
+        <a href="tel:+254202324344">0202324344</a>
       </div>
       <div className="mainHeader">
         <div className="logo">

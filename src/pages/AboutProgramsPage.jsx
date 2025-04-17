@@ -206,7 +206,7 @@ function Section1({ src }) {
     <div className="about-group1">
       <figure style={{ textAlign: "center" }}>
         <img src={src} style={{ minWidth: "320px", maxWidth: "500px" }} />
-        <figcaption>CS Oscar Sudi</figcaption>
+        <figcaption>Hon. Oscar Sudi</figcaption>
       </figure>
       <div className="about-group1Info">
         <h2>Mission Statement</h2>

@@ -100,7 +100,7 @@ export default function HomePage() {
         <HomeThree
           src="/assets/rutos.jpeg"
           size={200}
-          alt="President William Ruto of Kenya"
+          alt="Hon. William Ruto"
           title="Our History"
           content="Chepsaita Sports Limited was founded with a vision to develop sports talent in Kenya. We focus on providing opportunities for young athletes to develop their skills and reach their full potential through professional training, equipment support, and competition opportunities."
         />
@@ -108,7 +108,7 @@ export default function HomePage() {
           src="/assets/murkoc.jpeg"
           size={200}
           title="Our Mission"
-          alt="CS Kipchumba Murkomen"
+          alt="Hon. Kipchumba Murkomen"
           content="Our mission is to identify, develop, and promote sports talent across Kenya. We believe that every talented athlete deserves the opportunity to succeed regardless of their background or financial situation. Through our programs, we aim to create pathways for athletes to achieve their dreams."
         />
       </section>

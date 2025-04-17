@@ -58,7 +58,7 @@ export default function ContactPage() {
             <p>
               Lower kipkarin, chepterwai road, kapsos 606-30100 Kapsos-Turbo
             </p>
-            <p>0202600171</p>
+            <p>0202324344</p>
             <p>info@chepsaitasportslimited.co.ke</p>
           </div>
         </div>
