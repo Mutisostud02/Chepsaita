@@ -91,11 +91,11 @@ export default function HomePage() {
       </section>
       <section className="section3">
         <HomeThree
-          src="/assets/person.webp"
+          src="/assets/founder.jpeg"
           size={50}
           alt="Leadership Team"
           title="Our Leadership Team"
-          content="Our team includes founder Kirwa, in collaboration with visionaries and donors; William Ruto, Oscar Sudi, Farouk Kibet, Mandago, Ababu Namwamba, and Kipchumba Murkomen"
+          content="Our team includes Directors Peter Mukunda Kuria and Daniel Kiprono, in collaboration with visionaries and donors; William Ruto, Oscar Sudi, Farouk Kibet, Mandago, Ababu Namwamba, and Kipchumba Murkomen"
         />
         <HomeThree
           src="/assets/rutos.jpeg"

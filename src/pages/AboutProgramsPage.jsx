@@ -30,7 +30,8 @@ export default function AboutProgramsPage() {
           <Message title="Our Leadership Team">
             <p>
               Our organization is led by a team of dedicated sports enthusiasts
-              and professionals including Ruto, Oscar Sudi, Farouk Kibet,
+              and professionals including our Directors Peter Mukunda Kuria and
+              Daniel Kiprono in association with Ruto, Oscar Sudi, Farouk Kibet,
               Mandaa, Ababu na Mwamba, and Kipchumba Murkomen. Their combined
               experience in sports management, coaching, and community
               development has been instrumental in our success.
@@ -252,10 +253,11 @@ function Section2() {
             infrastructure and opportunities are limited.
           </p>
           <p>
-            Our leadership team of professionals, led by our Founder Kirwa, in
-            collaboration and assistance from visionaries and donors such as his
-            excellency William Ruto, Oscar Sudi, Farouk Kibet, Mandago, Ababu
-            Namwamba, Kipchumba Murkomen, Rai, Sport Pesa, Betika and others.
+            Our leadership team of professionals, led by our Directors Peter
+            Mukunda Kuria and Daniel Kiprono, in collaboration and assistance
+            from visionaries and donors such as his excellency William Ruto,
+            Oscar Sudi, Farouk Kibet, Mandago, Ababu Namwamba, Kipchumba
+            Murkomen, Rai, Sport Pesa, Betika and others.
           </p>
           <p>
             Our core focus remains on grassroots sports development and creating
