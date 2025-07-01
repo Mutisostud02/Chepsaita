@@ -575,9 +575,8 @@ header {
 .group3:first-of-type img {
   position: relative;
   left: 5rem;
-  width: 10rem;
+  width: 14rem;
   height: 10rem;
-  border-radius: 50%;
 }
 .group3:first-of-type {
   height: auto;

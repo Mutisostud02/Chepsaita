@@ -91,7 +91,7 @@ export default function HomePage() {
       </section>
       <section className="section3">
         <HomeThree
-          src="/assets/founder.jpeg"
+          src="/assets/dr.jpeg"
           size={50}
           alt="Leadership Team"
           title="Our Leadership Team"
