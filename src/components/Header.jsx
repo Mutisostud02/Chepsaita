@@ -5,10 +5,10 @@ export default function Header() {
   return (
     <header>
       <div className="topHeader">
-        <a href="mailto:info@chepsaitasportslimited.co.ke">
-          info@chepsaitasportslimited.co.ke
+        <a href="mailto:info@chepsaitasacco.co.ke">
+          info@chepsaitasacco.co.ke
         </a>
-        <a href="tel:+254202324344">0202324344</a>
+        <a href="tel:+254202324344">0202324345</a>
       </div>
       <div className="mainHeader">
         <div className="logo">
