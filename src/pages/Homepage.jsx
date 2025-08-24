@@ -29,17 +29,17 @@ export default function HomePage() {
       <section className="section-added1">
         <h3>About Us</h3>
         <p>
-          Chepsaita Sacco Society Limited was established in 2022 with a clear
-          mission: to simplify and streamline financial support for employees of
-          Chepsaita Sports Limited. We are dedicated to facilitating timely
-          salary payments while also offering accessible, low-interest soft
-          loans to help employees meet their immediate financial needs. Our goal
-          is to empower members by providing fast, reliable, and affordable
-          financial solutions. Whether it's bridging a gap between paychecks or
-          handling unexpected expenses, Strickly Company Sacco is here to ensure
-          that financial challenges don’t stand in the way of personal and
-          professional progress. We are committed to transparency, efficiency,
-          and the financial well-being of every employee we serve.
+          We are a sports development initiative committed to empowering young
+          athletes across Kenya through professional training, talent
+          development, and equipment support. Our programs span football,
+          athletics, swimming, cycling, and volleyball, led by experienced
+          coaches dedicated to nurturing potential.
+        </p>
+        <p>
+          We also run an equipment donation program, ensuring that no athlete is
+          held back by financial limitations. Through community outreach and
+          organized events, we actively identify and support promising talent in
+          both urban and rural areas.
         </p>
       </section>
       <section className="section2">
